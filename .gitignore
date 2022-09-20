@@ -1,0 +1,14 @@
+.env
+.vscode/settings.json
+build/
+node_modules
+usage/artifacts/
+cache/
+keys.json
+
+coverage/
+coverage.json
+.coverage_artifacts/
+.coverage_contracts/
+
+.openzeppelin/unknown-5777.json
