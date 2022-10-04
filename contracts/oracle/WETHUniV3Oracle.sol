@@ -10,12 +10,8 @@ import "@uniswap/v3-core/contracts/libraries/FullMath.sol";
 import "@uniswap/v3-periphery/contracts/libraries/OracleLibrary.sol";
 import "@uniswap/v3-periphery/contracts/libraries/PoolAddress.sol";
 
-////////////////////////////////////////////////////////////////////////////////////////////
-/// @title USDUniV3Oracle
-/// @author @conlot-crypto
-/// @notice oracle for assets of uniswapv2 pair
-////////////////////////////////////////////////////////////////////////////////////////////
-
+// @title WETH Uniswap V3 Oracle
+// Provide function to compute the price of tokens listed on uniswap using a "hop" token/WETH - WETH/USDC
 contract WETHUniV3Oracle is IOracleV2 {
     // The average price period we want to compute in seconds
     uint32 public constant PERIOD = 3600;
