@@ -47,6 +47,7 @@
     "@chainlink/contracts": "^0.4.1",
     "@openzeppelin/contracts": "^4.4.0",
     "@typechain/hardhat": "^2.3.0",
+    "@uniswap/v3-core": "^1.0.1",
     "dotenv": "^16.0.1",
     "random-seed": "^0.3.0",
     "solhint": "^3.3.6",
